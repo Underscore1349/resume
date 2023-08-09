@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    }
+
+
+#header {
+    margin-top: 20px;
+}
+
+ .container {
+    max-width: 800px;
+    margin: auto;
+ }   
+
+.info {
+    display: flex;
+    
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgb(245, 16, 16);
+}
+
+.my_name {
+    margin-left: 40px;}
+
+h1 {
+    color: #0f141e;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+
+.card {
+    padding: 30px 30px;
+    background: rgb(229, 218, 196);
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.Опыт_работы {
+    background: rgb(229, 218, 196);
+    color: grey;
+}   
+
+
+
+.Мои_хобби {
+    background: rgb(229, 218, 196);
+    color: grey;       
+}
+
+.Сертификаты {
+    background: rgb(229, 218, 196);
+    color: grey; 
+    
+}
+
+.list-link {
+    padding: 0;
+    list-style: none;
+    
+}
+
+.list-link li {
+    margin-bottom: 6px;    
+    
+}
+
+
+
+a:hover {
+color:rgb(245, 16, 16);
+}
+
+.btn {
+    background: #929090;                    
+    padding: 8px 10px ;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+.btn:hover {
+    opacity: 0.8;  
+    color:rgb(245, 16, 16);
+    
+}
+
+.btn2 {
+    text-decoration: none;
+    padding: 8px 10px ;
+    color: #929090;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.btn2:hover {
+    opacity: 0.8;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 6px;
+}
+
+.card td {
+    text-align: left;
+    border-bottom: 1px solid rgb(56, 55, 55);
+}
+
+
+.Svaz {
+    text-align: center;
+    margin-bottom: 20px;  
+}
+
+
+.form h2{
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(245, 16, 16);
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+
+
+@media(max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
